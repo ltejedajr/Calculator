@@ -6,12 +6,18 @@ window.onload = init;
 
 function init(){
 
+console.log("start init")
+
     const addBtn = document.getElementById("addBtn");
     addBtn.onclick = addBtnClicked;
+    
+console.log("end init")
 
 }
 
 function addBtnClicked(){
+
+    console.log("button clicked");
 
     const number1Field = document.getElementById("number1Field");
     const number2Field = document.getElementById("number2Field");
@@ -25,16 +31,23 @@ function addBtnClicked(){
     
     answerField.value = answer;
 
+
 }
 
 function init(){
 
+    console.log("start init")
+    
         const subtractBtn = document.getElementById("subtractBtn");
         subtractBtn.onclick = subtractBtnClicked;
+        
+    console.log("end init")
     
     }
 
 function subtractBtnClicked(){
+
+    console.log("button clicked");
 
     const number1Field = document.getElementById("number1Field");
     const number2Field = document.getElementById("number2Field");
